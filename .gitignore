@@ -1,0 +1,24 @@
+﻿# Secrets
+.env
+*.env
+!.env.example
+
+# Large files
+*.mp4
+*.mov
+*.webm
+demo/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Bills
+train/bills/
+test/bills/
+
+# OS
+.DS_Store
+Thumbs.db
